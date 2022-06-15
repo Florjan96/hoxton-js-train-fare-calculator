@@ -27,7 +27,7 @@ let myDistance=Number(prompt("How long is the distance you will take? "))
 
 
 if (myAge<18){
-alert(myName + " " + "you will pay" + " " + (myDistance * pricePerKm) * 0.2 + "$")
+alert(myName + " " + "you will pay" + " " + (myDistance * pricePerKm) * 0.8 + "$")
 
 }
 
@@ -38,7 +38,7 @@ else if (myAge>18 && myAge<65){
 
 
 else {
-    alert(myName + " " + "you will pay" + " " + (myDistance * pricePerKm) * 0.4 + "$")
+    alert(myName + " " + "you will pay" + " " + (myDistance * pricePerKm) * 0.6 + "$")
 
 
 
